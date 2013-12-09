@@ -10,8 +10,21 @@ App Ciudadania - Tecnologico de Monterrey.
 </author>
     <content src="index.html" />
     <access origin="*" />
+	<feature name="http://api.phonegap.com/1.0/device" />
+	<feature name="http://api.phonegap.com/1.0/notification"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
 	<preference name="orientation" value="landscape" />
 	<preference name="target-device" value="tablet" />
+	<feature name="NetworkStatus">
+		<param name="ios-package" value="CDVConnection" />
+	</feature>
+	<icon gap:density="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" />
+    <icon gap:density="mdpi" gap:platform="android" src="res/icon/android/icon-48-mdpi.png" />
+    <icon gap:density="hdpi" gap:platform="android" src="res/icon/android/icon-72-hdpi.png" />
+    <icon gap:density="xhdpi" gap:platform="android" src="res/icon/android/icon-96-xhdpi.png" />
+	<gap:platform name="android" />
 </widget>

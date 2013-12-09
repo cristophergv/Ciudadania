@@ -13,8 +13,8 @@
 	<feature name="http://api.phonegap.com/1.0/file"/>
 	<feature name="http://api.phonegap.com/1.0/media"/>
     <preference name="permissions" value="none" />
-    <preference name="orientation" value="portrait" />
-    <preference name="target-device" value="handset" />
+    <preference name="orientation" value="landscape" />
+    <preference name="target-device" value="tablet" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
